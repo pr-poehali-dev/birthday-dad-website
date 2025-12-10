@@ -9,9 +9,8 @@ const Index = () => {
   const [showSurprise, setShowSurprise] = useState(true);
   const [confetti, setConfetti] = useState<Array<{ id: number; left: string; delay: string; color: string }>>([]);
   const [wishes, setWishes] = useState([
-    { id: 1, name: 'Мама', text: 'С днём рождения, любимый! Ты самый лучший муж и отец!', avatar: '❤️' },
-    { id: 2, name: 'Бабушка', text: 'Дорогой наш! Здоровья тебе и долгих лет!', avatar: '👵' },
-    { id: 3, name: 'Дядя Саша', text: 'С юбилеем, братан! Всегда рядом!', avatar: '🤝' },
+    { id: 1, name: 'Мама', text: 'Ты самый лучший сын, твоя мама', avatar: '❤️' },
+    { id: 2, name: 'Брат Серёжа', text: 'С днём рождения, брат! Желаю здоровья и счастья!', avatar: '🤝' },
   ]);
   const [newWish, setNewWish] = useState({ name: '', text: '' });
 
